@@ -11,6 +11,9 @@ module SocialStream
         has_many :received_actions,
                  :through => :activity_object
 
+        has_many :author_actions,
+                 through: :activity_object
+
         has_many :activity_object_audiences,
                  :through => :activity_object
 
