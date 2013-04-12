@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
   # Slug generation
   s.add_runtime_dependency('stringex', '~> 1.5.1')
   # Avatar attachments
-  s.add_runtime_dependency('avatars_for_rails', '~> 1.0.2')
+  s.add_runtime_dependency('avatars_for_rails', '~> 1.0.4')
   # jQuery
   s.add_runtime_dependency('jquery-rails', '>= 1.0.9')
   # Select2 javascript library
@@ -45,7 +45,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('omniauth-facebook','~> 1.4.1')
   s.add_runtime_dependency('omniauth-linkedin','~> 0.0.6')
   # Messages
-  s.add_runtime_dependency('mailboxer','~> 0.10.1')
+  s.add_runtime_dependency('mailboxer','~> 0.10.2')
   # Tagging
   s.add_runtime_dependency('acts-as-taggable-on','~> 2.2.2')
   # Background jobs

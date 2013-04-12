@@ -1,14 +1,19 @@
 @import "jquery.cleditor"
 
-#converstions
+#conversations
   #toolbar
   .conversations
     .conversation
       .content_left
         header
+          width: 120px
           h5 
             a
               @include ellipsis
+          .date
+            font-size: 11px
+            color: #888
+
       .content_right
         color: $gray
         .subject
@@ -27,11 +32,6 @@
           color: $gray
           font-size: 11px
 
-       
-
-  form.new_message
-    .btn
-      @extend .btn-blue
 
   
 #ck_editor
@@ -51,7 +51,7 @@
     @extend .border-radius-5
     background-color: #f1f1f1
     img
-      @extend .border-radius-5
+      @include border-radius (5px)
   .soften
     border-color: $white
 
@@ -66,8 +66,7 @@
       margin-top: 10px
       input
         &[type="submit"]
-          @extend .border-radius-5
-          @extend .btn-blue
+          @include border-radius(5px)
 
 
 
@@ -78,7 +77,7 @@
     .media
       .pull-left
         img
-          @extend .border-radius-5
+          @include border-radius (5px)
       .date
         color: $grayLighter
 
@@ -91,8 +90,7 @@
   #conversation
     input
       &[type="submit"]
-        @extend .btn-blue
-        @extend .pull-left
+        float: left
 
 
 #content

@@ -8,8 +8,6 @@
   #audio,
   #video,
   #document
-    #toolbar
-      display: none
     .picture,
     .audio,
     .video,
@@ -50,11 +48,7 @@
             width: 90% !important
 
 
-#search-results,
-.repository-list-net,
-.repository-list
-  .picture,
-  .audio,
-  .video,
-  .document
-    margin-bottom: 20px
+  #repository
+    .repository
+      @include grid-core-span(12, $fluidGridColumnWidth, $fluidGridGutterWidth)
+

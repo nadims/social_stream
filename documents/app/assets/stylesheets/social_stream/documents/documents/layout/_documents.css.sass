@@ -1,0 +1,51 @@
+.repository
+  @include grid-core-span(10, $fluidGridColumnWidth, $fluidGridGutterWidth)
+  display: block
+  float: left
+
+#repository
+  
+  .repository_show
+    @include grid-core-span(1, $fluidGridColumnWidth, $fluidGridGutterWidth)
+    display: inline
+  input
+    &[type="text"]
+      width: 22% !important
+      display: inline
+      margin-top: 3px
+      float: right
+   
+  .btn
+    float: right
+    width: 90px
+    display: inline-block
+    margin: 3px 16px 0 -14px
+    padding: 5px 12px
+  .tab-content
+    @include grid-core-span(10, $fluidGridColumnWidth, $fluidGridGutterWidth)
+    padding-bottom: 100px
+
+  .repository-list
+    .document,
+    .picture,
+    .audio,
+    .video
+      min-height: 81px
+
+  nav.more
+    clear: both
+    margin-top: 10px
+    .btn-see-more
+      position: absolute
+      z-index: 100
+      padding: 0px 10px 0px 4px
+    .loading
+      z-index: 200
+      position: relative
+
+  #comments
+    .new_comment
+      margin-left: 44px
+
+.documents
+  clear: both

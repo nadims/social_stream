@@ -113,6 +113,8 @@ en:
         one: "%{count} more person"
         other: "%{count} more people"
     unfollow: "Unfollow"
+  ajax:
+    error: "There was an error in the remote server"
   browse: "Browse"
   button:
     cancel: "Cancel"
@@ -235,6 +237,7 @@ en:
       tags: "Tags"
       search: "Search"
     link: "Explore"
+    or: "or Explore"
     participants:
       last_active: "Last active"
       last_registered: "Last registered"

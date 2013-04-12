@@ -1,6 +1,6 @@
 @import "jquery.cleditor"
 
-#converstions
+#conversations
   @include grid-core-span(12, $fluidGridColumnWidth, $fluidGridGutterWidth)
   .conversations
     @include grid-core-span(10, $fluidGridColumnWidth, $fluidGridGutterWidth)
@@ -13,25 +13,27 @@
         .avatar
           display: inline
         header
-          width: 48px
+          width: 120px
           display: inline-block
-          h5 
+          h5
+            margin-top: 0
+            margin-bottom: 0  
             a
               display: block
       .content_right
         display: inline-block
         margin-bottom: 15px
         float: left
-        margin-left: 30px
-        width: 81%
+        margin-left: 20px
+        width: 70%
         .subject
           font-size: 14px
           display: inline
           a
-            width: 96%
+            width: 89%
 
         .briefing
-          width: 96%
+          width: 85%
         .date
           display: inline
           margin: 0 13px 0 4px
@@ -107,7 +109,7 @@
         width: 99%
     input
       &[type="submit"]
-        @extend .pull-left
+        float: left
 
 
 #content

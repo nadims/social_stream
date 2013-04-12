@@ -1,5 +1,6 @@
 body
   background-color: #f9f9f9
+  color: #555
 
 
 
@@ -10,6 +11,7 @@ body
 
 #toolbar
   @extend .hidden-phone
+  @extend .hidden-tablet
   @include grid-core-span(2, $fluidGridColumnWidth, $fluidGridGutterWidth)
   float: left
 
